@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ProxyProvider\ProxyProvider.HttpClientProvider\ProxyProvider.HttpClientProvider.csproj" />
+    <ProjectReference Include="..\..\TaskQueue\TaskQueue\TaskQueue.csproj" />
+  </ItemGroup>
+
+</Project>
