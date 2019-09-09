@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskQueue", "TaskQueue\TaskQueue.csproj", "{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC22512B-0B03-4213-96BD-F2AB18E09865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskQueue.CommonTaskQueues", "TaskQueue.CommonTaskQueues\TaskQueue.CommonTaskQueues.csproj", "{A335FEC6-DE44-43B6-955C-B8FDF9016EAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A335FEC6-DE44-43B6-955C-B8FDF9016EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A335FEC6-DE44-43B6-955C-B8FDF9016EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A335FEC6-DE44-43B6-955C-B8FDF9016EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A335FEC6-DE44-43B6-955C-B8FDF9016EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D767E45-0A12-4A6A-9FEF-ABB1493B3D3B} = {FC22512B-0B03-4213-96BD-F2AB18E09865}
+		{A335FEC6-DE44-43B6-955C-B8FDF9016EAF} = {FC22512B-0B03-4213-96BD-F2AB18E09865}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B8C2138-0ABB-4063-8428-53187F7847F6}
+	EndGlobalSection
+EndGlobal
